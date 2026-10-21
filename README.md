@@ -5,10 +5,35 @@ minimax and ml agents. The primary goal is to explore different AI levels/strate
 their performance against each other. To do this a series of simulation was conducted, where two agents where played 500
 and the results were logged for analysis.
 
-## Steps for execution
+### Steps for execution
 
-- open main.py and run
+- clone the repository
+- create and activate a virtual enviroment
+
+Linux
+```python
+python3 -m venv .venv
+source .venv/bin/activate
+```
+Windows
+```python
+py -m venv .venv
+.\.venv\Scrips\Activate.ps1
+```
+- Install the dependencies
+```python
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+- run the game
+```python
+python3 main.py
+```
 - choose which stream you want (Human vs AI or AI vs AI) and select your agents
+- to run tests:
+```python
+python -m unittest discover -p "test_*.py"
+```
 
 ## Random vs Rule based (26-473 with 1 draw)
 
