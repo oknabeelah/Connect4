@@ -1,0 +1,3 @@
+Agent,Wins,Draws,Losses,Avg Nodes,Avg Time,Total Prunes
+MLAgent,500,0,0,0.0,0.0,0
+MinimaxAgent,0,0,500,2.0,0.0012,0

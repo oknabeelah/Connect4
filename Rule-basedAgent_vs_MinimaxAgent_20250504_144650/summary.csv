@@ -1,0 +1,3 @@
+Agent,Wins,Draws,Losses,Avg Nodes,Avg Time,Total Prunes
+Rule-basedAgent,0,3,497,0.0,0.0,0
+MinimaxAgent,497,3,0,697.15,0.2855,40856
